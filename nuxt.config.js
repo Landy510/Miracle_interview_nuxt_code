@@ -15,7 +15,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image', href: '/Miracle.png' }
+      { rel: 'icon', type: 'image', href: './Miracle.png' }
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.2.1.slim.min.js' },
@@ -76,6 +76,6 @@ export default {
   target: 'static',
 
   router: {
-    base: '/Miracle_interview_nuxt.git/'
+    base: '/Miracle_interview_nuxt/'
   }
 }
